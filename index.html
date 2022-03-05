@@ -1,21 +1,336 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/styles.css">
+    <title>Lindseys BMW Blog</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Quando&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4dceb0232d.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<body class="is-preload">
 
-    <script src="assets/app.js" async defer></script>
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">BMW Luxury Cars</a></h1>
+            <nav class="links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Author</a></li>
+                    <li><a href="/single.html">Blog</a></li>
+                </ul>
+            </nav>
+            <nav class="main">
+                <ul>
+                    <li class="search">
+                        <a class="fa-search" href="#search">Search</a>
+                        <form id="search" method="get" action="#">
+                            <input type="text" name="query" placeholder="Search" />
+                        </form>
+                    </li>
+                    <li class="menu">
+                        <a class="fa-bars" href="#menu">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <section id="menu">
+
+            <!-- Search -->
+            <section>
+                <form class="search" method="get" action="#">
+                    <input type="text" name="query" placeholder="Search" />
+                </form>
+            </section>
+
+            <!-- Links -->
+            <section class="social-links">
+                <ul class="links">
+                    <li>
+                        <a href="https://unsplash.com/s/photos/bmw">
+                            <h3>BMW Cars Gallery</h3>
+                            <p>My favorite picture collection</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bmwblog.com/category/bmw-news/">
+                            <h3>Latest News</h3>
+                            <p>Find out recently updated news and promos here.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bmwcca.org/">
+                            <h3>BMW Car Club of America</h3>
+                            <p>BMW Car Club of America is the largest single-marque car club in the world.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bimmerownersclub.com/forums/">
+                            <h3>Bimmer Owner's Club</h3>
+                            <p>Forum boards, manuals, hot topics of debate.. all found here.</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Actions -->
+            <section id="login">
+                <ul class="actions stacked">
+                    <li><a href="#" class="button large fit">Log In</a></li>
+                </ul>
+            </section>
+
+        </section>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <article class="post">
+                <header>
+                    <div class="title">
+                        <h2><a href="single.html">BMW Models</a></h2>
+                        <p>Understanding the Car Naming Conventions</p>
+                    </div>
+                    <div class="meta">
+                        <time class="published" datetime="2015-11-01">Feb 2022</time>
+                        <a href="#" class="author"><span class="name">Performance Junkie</span><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                    </div>
+                </header>
+                <a href="single.html" class="image featured"><img src="/assets/images/bmw-interior.jpg" alt="" /></a>
+                <p>Most car buyers can intuitively understand that a 3 Series is smaller (and less expensive) than a 5 series or a 7 Series. Beyond that, however, the naming conventions can feel somewhat confusing. BMW uses a number of proprietary terms
+                    such as Gran Coupe, xDrive and M Sport Line that can require an orientation for those who are new to the brand.</p>
+                <footer>
+                    <ul class="actions">
+                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                    </ul>
+                    <ul class="stats">
+                        <li><a href="#">General</a></li>
+                        <li><a href="#" class="icon solid fa-heart">28</a></li>
+                        <li><a href="#" class="icon solid fa-comment">128</a></li>
+                    </ul>
+                </footer>
+            </article>
+
+            <!-- Post -->
+            <article class="post">
+                <header>
+                    <div class="title">
+                        <h2><a href="single.html">Created the first electric car</a></h2>
+                        <p>BMW made its first electric car in 1972.</p>
+                    </div>
+                    <div class="meta">
+                        <time class="published" datetime="2015-10-25">March 17, 2021</time>
+                        <a href="#" class="author"><span class="name">Motor1 Guy</span><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                    </div>
+                </header>
+                <a href="single.html" class="image featured"><img src="/assets/images/bmw-at-lake.jpg" alt="" /></a>
+                <p>Conceived as a prototype in 1969, this battery powered Beemer premiered at the 1972 Olympic Games in Munich, conveniently in time for the OPEC crisis.</p>
+                <footer>
+                    <ul class="actions">
+                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                    </ul>
+                    <ul class="stats">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#" class="icon solid fa-heart">38</a></li>
+                        <li>
+                            <a href="#" class="icon solid fa-comment">11</a>
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+
+            <!-- Post -->
+            <article class="post">
+                <header>
+                    <div class="title">
+                        <h2><a href="single.html">They hold the Guinness world record for longest drift.</a></h2>
+                        <p>In 1 hour claimed a 49.25-mile; longest twin vehicle drift, beating the 17.8-mile (28.7 km) record previously held by Nissan</p>
+                    </div>
+                    <div class="meta">
+                        <time class="published" datetime="2015-10-22">January 10, 2018</time>
+                        <a href="#" class="author"><span class="name">Loves to Drift</span><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                    </div>
+                </header>
+                <a href="single.html" class="image featured"><img src="/assets/images/5-series.jpg" alt="" /></a>
+                <p>On December 11, 2017, Johan Schwartz set two new world records for BMW. After drifting for eight hours and covering 232.5 miles (374 kilometers), Schwartz set a new record for “Greatest distance vehicle drift in 8 hours.”</p>
+                <p>However, this wasn’t the only record attempt that day. Matt Mullins, an American professional driver, was out to break “Longest twin vehicle drift (water assisted)” with Schwartz for BMW. The two managed to get 49.25 miles (79.26 kilometers),
+                    breaking the previous record of 17.72 miles (28.52 kilometers).</p>
+                <footer>
+                    <ul class="actions">
+                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                    </ul>
+                    <ul class="stats">
+                        <li><a href="#">Exciting</a></li>
+                        <li><a href="#" class="icon solid fa-heart">9</a></li>
+                        <li><a href="#" class="icon solid fa-comment">128</a></li>
+                    </ul>
+                </footer>
+            </article>
+
+            <!-- Pagination -->
+            <ul class="actions pagination">
+                <li><a href="" class="disabled button large previous">Previous Page</a></li>
+                <li><a href="#" class="button large next">Next Page</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Sidebar -->
+        <section id="sidebar">
+
+            <!-- Intro -->
+            <section id="intro">
+                <a href="#" class="logo"><img src="/assets/images/bmw-logo2.png" alt="" /></a>
+                <header>
+                    <h2>BMW</h2>
+                    <p>The German Luxury Car</p>
+                </header>
+            </section>
+
+            <!-- Mini Posts -->
+            <section id="my-articles">
+                <div class="mini-posts">
+
+                    <!-- Mini Post -->
+                    <article class="mini-post">
+                        <header>
+                            <h3><a href="single.html">Vitae sed condimentum</a></h3>
+                            <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                            <a href="#" class="author"><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                        </header>
+                        <a href="single.html" class="image"><img src="images/bmw-close.png" alt="" /></a>
+                    </article>
+
+                    <!-- Mini Post -->
+                    <article class="mini-post">
+                        <header>
+                            <h3><a href="single.html">Rutrum neque accumsan</a></h3>
+                            <time class="published" datetime="2015-10-19">October 19, 2015</time>
+                            <a href="#" class="author"><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                        </header>
+                        <a href="single.html" class="image"><img src="/assets/images/bmw-m440i-xdrive.jpg" alt="" /></a>
+                    </article>
+
+                    <!-- Mini Post -->
+                    <article class="mini-post">
+                        <header>
+                            <h3><a href="single.html">Odio congue mattis</a></h3>
+                            <time class="published" datetime="2015-10-18">October 18, 2015</time>
+                            <a href="#" class="author"><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                        </header>
+                        <a href="single.html" class="image"><img src="/assets/images/bmw.jpg" alt="" /></a>
+                    </article>
+
+                    <!-- Mini Post -->
+                    <article class="mini-post">
+                        <header>
+                            <h3><a href="single.html">Enim nisl veroeros</a></h3>
+                            <time class="published" datetime="2015-10-17">October 17, 2015</time>
+                            <a href="#" class="author"><img src="/assets/images/bmw-logo.png" alt="" /></a>
+                        </header>
+                        <a href="single.html" class="image"><img src="/assets/images/pic07.jpg" alt="" /></a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Posts List -->
+            <section>
+                <ul class="posts">
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
+                                <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                            </header>
+                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/09f/fff" alt="" /></a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="single.html">Iconic British brands Rover, MINI, and Rolls Royce are owned by BMW</a></h3>
+                                <time class="published" datetime="2015-10-15">October 15, 2015</time>
+                            </header>
+                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/" alt="" /></a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="single.html">HQ took inspiration from its famous four-cylinder engines</a></h3>
+                                <time class="published" datetime="2015-10-10">October 10, 2015</time>
+                            </header>
+                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/000/fff" alt="" /></a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="single.html">Mercedes Benz attempted a takeover of BMW</a></h3>
+                                <time class="published" datetime="2015-10-08">October 8, 2015</time>
+                            </header>
+                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/066/fff" alt="" /></a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="single.html">They built the world’s fastest motorcycle in 1937</a></h3>
+                                <time class="published" datetime="2015-10-06">October 7, 2015</time>
+                            </header>
+                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/2eb/fff" alt="" /></a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- About -->
+            <section class="blurb">
+                <h2>About</h2>
+                <p>Bayerische Motoren Werke AG, commonly referred to as BMW, is a German multinational corporate manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany.</p>
+                <ul class="actions">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <section id="footer">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/BMW?s=20&t=ozef1BRw_JE9LgeUu4vhcA" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/BMW/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/bmw/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.feedspot.com/infiniterss.php?_src=followbtn&followfeedid=187609&q=site:https%3A%2F%2Ffeeds.feedburner.com%2FBmwBlog" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <p class="copyright">&copy; Visionary.</p><br>
+                <p>
+                    <a href="http://lindseyk.dev/"><img src="https://img.shields.io/badge/Made%20With-Love-orange.svg" alt="built with love"></a>
+                </p>
+            </section>
+
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
