@@ -2937,7 +2937,7 @@ ul.posts article header> :last-child {
 
 .post>footer .stats li {
     border-left: solid 1px #6e6e6e;
-    display: inline-block;
+    display: inline;
     font-family: "Quando", serif;
     font-size: 0.6em;
     font-weight: 400;
