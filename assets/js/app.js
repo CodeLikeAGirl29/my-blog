@@ -87,3 +87,11 @@
 			});
 
 })(jQuery);
+
+
+// for likes functionality
+$(document).ready(function() {
+	$('.like-button').click(function() {
+		$(this).toggleClass('is-active');
+	})
+})
