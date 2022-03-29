@@ -6,4 +6,6 @@
 
 Created by Lindsey for Udacity's Front-end Development Nanodegree.
 
+[Link](https://codelikeagirl29.github.io/my-blog/)
+
 ![ScreenShot Tool -20220329192353](https://user-images.githubusercontent.com/25946305/160722374-3d557d61-d24a-4978-a618-df8cb325081d.png)
