@@ -84,12 +84,12 @@ fa {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 3.75em 3em 1.25em 3em;
+        padding: 3.75em 3em 1.25em;
         border-left: 0;
     }
     .post>header .title {
         display: flex;
-        margin: 0 0 2em 0;
+        margin: 0 0 2em;
         padding: 0;
         text-align: center;
     }
@@ -107,7 +107,7 @@ fa {
         -ms-justify-content: center;
         justify-content: center;
         border-left: 0;
-        margin: 0 0 2em 0;
+        margin: 0 0 2em;
         padding-top: 0;
         padding: 0;
         text-align: left;
@@ -144,15 +144,15 @@ fa {
 
 @media screen and (max-width: 736px) {
     .post {
-        padding: 1.5em 1.5em 0.1em 1.5em;
+        padding: 1.5em 1.5em 0.1em;
         left: -1.5em;
-        margin: 0 0 2em 0;
+        margin: 0 0 2em;
         width: calc(100% + (1.5em * 2));
     }
     .post>header {
-        padding: 3em 1.5em 0.5em 1.5em;
+        padding: 3em 1.5em 0.5em;
         left: -1.5em;
-        margin: -1.5em 0 1.5em 0;
+        margin: -1.5em 0 1.5em;
         width: calc(100% + 3em);
     }
     .post>header .title h2 {
@@ -173,7 +173,7 @@ fa {
     }
     .post>header .meta>* {
         border-left: 0;
-        margin: 1em 0 0 0;
+        margin: 1em 0 0;
         padding-left: 0;
     }
     .post>header .meta .author .name {
