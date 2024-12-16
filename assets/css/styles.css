@@ -181,7 +181,7 @@ h2 {
 }
 
 p {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #3c3b3b;
 }
@@ -603,7 +603,7 @@ i {
 }
 
 p {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #3c3b3b;
 }
@@ -619,7 +619,7 @@ h6 {
     font-weight: 800;
     letter-spacing: 0.25em;
     line-height: 1.65;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
     text-transform: uppercase;
 }
 
@@ -668,7 +668,7 @@ sup {
 blockquote {
     border-left: solid 4px #009ADA;
     font-style: italic;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     padding: 0.5em 0 0.5em 2em;
 }
 
@@ -685,7 +685,7 @@ pre {
     -webkit-overflow-scrolling: touch;
     font-family: "Courier New", monospace;
     font-size: 0.9em;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
 }
 
 pre code {
@@ -1939,7 +1939,7 @@ hr.major {
 
 .blurb h2 {
     font-size: 0.8em;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1.5em;
 }
 
 .blurb h3 {
@@ -2110,7 +2110,7 @@ button:disabled:before,
 /* Form */
 
 form {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
 }
 
 form.search {
@@ -2152,7 +2152,7 @@ label {
     display: block;
     font-size: 0.9em;
     font-weight: 700;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
 }
 
 input[type="text"],
@@ -2437,7 +2437,7 @@ input[type="radio"]+label:before {
 
 .image.fit {
     display: block;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     width: 100%;
 }
 
@@ -2447,7 +2447,7 @@ input[type="radio"]+label:before {
 
 .image.featured {
     display: block;
-    margin: 0 0 3em 0;
+    margin: 0 0 3em;
     width: 100%;
 }
 
@@ -2457,13 +2457,13 @@ input[type="radio"]+label:before {
 
 @media screen and (max-width: 736px) {
     .image.featured {
-        margin: 0 0 1.5em 0;
+        margin: 0 0 1.5em;
     }
 }
 
 .image.main {
     display: block;
-    margin: 0 0 3em 0;
+    margin: 0 0 3em;
     width: 100%;
 }
 
@@ -2474,7 +2474,7 @@ input[type="radio"]+label:before {
 
 ol {
     list-style: decimal;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     padding-left: 1.25em;
 }
 
@@ -2484,7 +2484,7 @@ ol li {
 
 ul {
     list-style: disc;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     padding-left: 1em;
 }
 
@@ -2508,13 +2508,13 @@ ul.alt li:first-child {
 }
 
 dl {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
 }
 
 dl dt {
     display: block;
     font-weight: 700;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
 }
 
 dl dd {
@@ -2560,7 +2560,7 @@ ul.actions.stacked {
 }
 
 ul.actions.stacked li {
-    padding: 1.3em 0 0 0;
+    padding: 1.3em 0 0;
 }
 
 ul.actions.stacked li:first-child {
@@ -2609,7 +2609,7 @@ ul.actions.fit.stacked {
         -webkit-flex-shrink: 1;
         -ms-flex-shrink: 1;
         flex-shrink: 1;
-        padding: 1em 0 0 0;
+        padding: 1em 0 0;
         text-align: center;
         width: 100%;
     }
@@ -2667,8 +2667,8 @@ ul.posts {
 
 ul.posts li {
     border-top: dotted 1px #6e6e6e;
-    margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
+    margin: 1.5em 0 0;
+    padding: 1.5em 0 0;
 }
 
 ul.posts li:first-child {
@@ -2721,7 +2721,7 @@ ul.posts article header .published {
     font-size: 0.6em;
     font-weight: 400;
     letter-spacing: 0.25em;
-    margin: -0.625em 0 1.7em 0;
+    margin: -0.625em 0 1.7em;
     text-transform: uppercase;
 }
 
@@ -2741,7 +2741,7 @@ ul.posts article header> :last-child {
     flex-direction: column-reverse;
     background: #ffffff;
     border: solid 1px #6e6e6e;
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
 }
 
 .mini-post .image {
@@ -2784,7 +2784,7 @@ ul.posts article header> :last-child {
     font-size: 0.6em;
     font-weight: 400;
     letter-spacing: 0.25em;
-    margin: -0.625em 0 1.7em 0;
+    margin: -0.625em 0 1.7em;
     text-transform: uppercase;
 }
 
@@ -2795,7 +2795,7 @@ ul.posts article header> :last-child {
 }
 
 .mini-posts {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
 }
 
 @media screen and (max-width: 1280px) {
@@ -2825,14 +2825,14 @@ ul.posts article header> :last-child {
         width: 100%;
     }
     .mini-posts>* {
-        margin: 0 0 2em 0;
+        margin: 0 0 2em;
         width: 100%;
     }
 }
 /* Post */
 
 .post {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #3c3b3b;
 }
@@ -2844,7 +2844,7 @@ ul.posts article header> :last-child {
     display: flex;
     border-bottom: solid 1px #6e6e6e;
     left: -3em;
-    margin: -3em 0 3em 0;
+    margin: -3em 0 3em;
     position: relative;
     width: calc(100% + 6em);
 }
@@ -2854,7 +2854,7 @@ ul.posts article header> :last-child {
     -webkit-flex-grow: 1;
     -ms-flex-grow: 1;
     flex-grow: 1;
-    padding: 3.75em 3em 3.3em 3em;
+    padding: 3.75em 3em 3.3em;
 }
 
 .post>header .title h2 {
@@ -2867,7 +2867,7 @@ ul.posts article header> :last-child {
 }
 
 .post>header .meta {
-    padding: 3.75em 3em 1.75em 3em;
+    padding: 3.75em 3em 1.75em;
     border-left: solid 1px #6e6e6e;
     min-width: 17em;
     text-align: right;
@@ -2875,7 +2875,7 @@ ul.posts article header> :last-child {
 }
 
 .post>header .meta>* {
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
 }
 
 .post>header .meta> :last-child {
@@ -2991,7 +2991,7 @@ header p {
 }
 
 table {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em;
     width: 100%;
 }
 
@@ -3006,14 +3006,14 @@ table tbody tr:nth-child(2n+1) {
 }
 
 table td {
-    padding: 0.75em 0.75em;
+    padding: 0.75em;
 }
 
 table th {
     color: #3c3b3b;
     font-size: 0.9em;
     font-weight: 700;
-    padding: 0 0.75em 0.75em 0.75em;
+    padding: 0 0.75em 0.75em;
     text-align: left;
 }
 
@@ -3318,8 +3318,8 @@ body.single #wrapper {
 
 #sidebar>* {
     border-top: solid 1px #6e6e6e;
-    margin: 3em 0 0 0;
-    padding: 3em 0 0 0;
+    margin: 3em 0 0;
+    padding: 3em 0 0;
 }
 
 #sidebar> :first-child {
@@ -3331,9 +3331,9 @@ body.single #wrapper {
 @media screen and (max-width: 1280px) {
     #sidebar {
         border-top: solid 1px #6e6e6e;
-        margin: 3em 0 0 0;
+        margin: 3em 0 0;
         min-width: 0;
-        padding: 3em 0 0 0;
+        padding: 3em 0 0;
         width: 100%;
         overflow-x: hidden;
     }
@@ -3343,7 +3343,7 @@ body.single #wrapper {
 #intro .logo {
     border-bottom: 0;
     display: inline-block;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
     overflow: hidden;
     position: relative;
     width: 4em;
@@ -3380,7 +3380,7 @@ body.single #wrapper {
 
 @media screen and (max-width: 1280px) {
     #intro {
-        margin: 0 0 3em 0;
+        margin: 0 0 3em;
         text-align: center;
     }
     #intro header h2 {
@@ -3393,14 +3393,14 @@ body.single #wrapper {
 
 @media screen and (max-width: 736px) {
     #intro {
-        margin: 0 0 1.5em 0;
+        margin: 0 0 1.5em;
         padding: 1.25em 0;
     }
     #intro> :last-child {
         margin-bottom: 0;
     }
     #intro .logo {
-        margin: 0 0 0.5em 0;
+        margin: 0 0 0.5em;
     }
     #intro header h2 {
         font-size: 1.25em;
@@ -3473,8 +3473,8 @@ body.single #footer {
 #menu .links>li {
     border: 0;
     border-top: dotted 1px #000;
-    margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
+    margin: 1.5em 0 0;
+    padding: 1.5em 0 0;
 }
 
 #menu .links>li a {
