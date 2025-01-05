@@ -1,395 +1,498 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Lindseys BMW Blog</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/styles2.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Quando&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/29b275fb0c.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luxury Car Blog</title>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png" />
+  <!--build:css assets/css/styles.min.css-->
+  <link rel="stylesheet" href="assets/css/elegant.css" />
+  <link rel="stylesheet" href="assets/css/custom_bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/plyr.min.css" />
+  <!-- cutom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--endbuild-->
 </head>
 
-<body class="is-preload">
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Header -->
-        <header id="header">
-            <h1><a href="index.html">BMW Luxury Cars</a></h1>
-            <nav class="links">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">Author</a></li>
-                    <li><a href="single.html">Blog</a></li>
-                </ul>
-            </nav>
-            <nav class="main">
-                <ul>
-                    <li class="search">
-                        <a class="fa fa-search" href="#search">Search</a>
-                        <form id="search" method="get" action="#">
-                            <input type="text" name="query" placeholder="Search" />
-                        </form>
-                    </li>
-                    <li class="menu">
-                        <a class="fa-bars" href="#menu">Menu</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Menu -->
-        <section id="menu">
-
-            <!-- Search -->
-            <section class="search">
-                <form class="search" method="get" action="#">
-                    <input type="text" name="query" placeholder="Search" />
-                </form>
-            </section>
-
-            <!-- Links -->
-            <section class="social-links">
-                <ul class="links">
-                    <li>
-                        <a href="https://unsplash.com/s/photos/bmw">
-                            <h3>BMW Cars Gallery</h3>
-                            <p>My favorite picture collection</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.bmwblog.com/category/bmw-news/">
-                            <h3>Latest News</h3>
-                            <p>Find out recently updated news and promos here.</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.bmwcca.org/">
-                            <h3>BMW Car Club of America</h3>
-                            <p>BMW Car Club of America is the largest single-marque car club in the world.</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.bimmerownersclub.com/forums/">
-                            <h3>Bimmer Owner's Club</h3>
-                            <p>Forum boards, manuals, hot topics of debate.. all found here.</p>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- Actions -->
-            <section id="login">
-                <ul class="actions stacked">
-                    <li><a href="#" class="button large fit">Log In</a></li>
-                </ul>
-            </section>
-
-        </section>
-
-        <!-- Main -->
-        <div id="main">
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <article class="blog-card">
-                            <div class="blog-card__background">
-                                <div class="card__background--wrapper">
-                                    <div class="card__background--main" style="background-image: url('./assets/images/m3-cs.jpg');">
-                                        <div class="card__background--layer"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-card__head">
-                                <span class="date__box">
-                          <span class="date__day">5</span>
-                                <span class="date__month">March</span>
-                                </span>
-                            </div>
-                            <div class="blog-card__info">
-                                <h5>They built the world’s fastest motorcycle in 1937.</h5>
-                                <p>
-                                    <a href="#" class="icon-link mr-3"><i class="fa fa-pencil-square-o"></i> Bimmer Guy</a>
-                                    <a href="#" class="icon-link"><i class="fa fa-comments-o"></i> 150</a>
-                                </p>
-                                <p>BMW manufactured the fastest motorcycle in the world in 1937, and it could reach speeds of up to 173.7 miles per hour.</p>
-                                <a href="single.html" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>READ MORE</a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <section class="detail-page">
-                <div class="container mt-5">
-
-                </div>
-            </section>
-
-            <!-- blog -->
-            <article class="blog">
-                <header>
-                    <div class="title">
-                        <h2><a href="single.html">BMW Models</a></h2>
-                        <p>Understanding the Car Naming Conventions</p>
-                    </div>
-                    <div class="meta">
-                        <time class="published" datetime="2015-11-01">Feb 25 2022</time>
-                        <a href="#" class="author"><span class="name">Performance Junkie</span><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                    </div>
-                </header>
-                <a href="single.html" class="image featured"><img src="./assets/images/sapphire.jpg" alt="blue sporty car" /></a>
-                <p>Most car buyers can intuitively understand that a 3 Series is smaller (and less expensive) than a 5 series or a 7 Series. Beyond that, however, the naming conventions can feel somewhat confusing. <u>BMW</u> uses a number of proprietary
-                    terms such as Gran Coupe, xDrive and M Sport Line that can require an orientation for those who are new to the brand.</p>
-                <footer>
-                    <ul class="actions">
-                        <li><a href="single.html" class="button large">Continue Reading</a></li>
-                    </ul>
-                    <ul class="stats">
-                        <li><a href="#">History</a></li>
-                        <li><a href="#" class="icon solid fa-heart" data-count="0">0</a></li>
-                        <li>
-                            <a href="#" class="icon solid fa-comment">11</a>
-                        </li>
-                    </ul>
-                </footer>
-            </article>
-
-            <!-- blog -->
-            <article class="blog">
-                <header>
-                    <div class="title">
-                        <h2><a href="single.html">Created the first electric car</a></h2>
-                        <p class="underlined">
-                            BMW made its first electric car in 1972.</p>
-                    </div>
-                    <div class="meta">
-                        <time class="published" datetime="2015-10-25">March 17, 2021</time>
-                        <a href="#" class="author"><span class="name">Motor1 Guy</span><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                    </div>
-                </header>
-                <a href="single.html" class="image featured"><img src="./assets/images/bmw-at-lake.jpg" alt="bmw image at lake" /></a>
-                <p>Conceived as a prototype in 1969, this battery powered Beemer premiered at the <b>1972 Olympic Games</b> in Munich, conveniently in time for the OPEC crisis.</p>
-                <footer>
-                    <ul class="actions">
-                        <li><a href="single.html" class="button large">Continue Reading</a></li>
-                    </ul>
-                    <ul class="stats">
-                        <li><a href="#">History</a></li>
-                        <li><a href="#" class="icon solid fa-heart" data-count="0">0</a></li>
-                        <li>
-                            <a href="#" class="icon solid fa-comment">11</a>
-                        </li>
-                    </ul>
-                </footer>
-            </article>
-
-            <!-- blog -->
-            <article class="blog">
-                <header>
-                    <div class="title">
-                        <h2><a href="single.html">They hold the Guinness world record for longest drift.</a></h2>
-                        <p class="underlined">In 1 hour claimed a 49.25-mile; longest twin vehicle drift, beating the 17.8-mile (28.7 km) record previously held by Nissan</p>
-                    </div>
-                    <div class="meta">
-                        <time class="published" datetime="2015-10-22">January 10, 2018</time>
-                        <a href="#" class="author"><span class="name">Loves to Drift</span><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                    </div>
-                </header>
-                <a href="single.html" class="image featured">
-                    <figure><img src="./assets/images/5-series.jpg" alt="5 series bmw" />
-                        <figcaption>5-series BMW</figcaption>
-                    </figure>
-                </a>
-                <p>On December 11, 2017, <em>Johan Schwartz</em> set two new world records for BMW. After drifting for eight hours and covering 232.5 miles (374 kilometers), Schwartz set a new record for “Greatest distance vehicle drift in 8 hours.”</p>
-                <p>However, this wasn’t the only record attempt that day. <em>Matt Mullins</em>, an American professional driver, was out to break “Longest twin vehicle drift (water assisted)” with Schwartz for BMW. The two managed to get 49.25 miles (79.26
-                    kilometers), breaking the previous record of 17.72 miles (28.52 kilometers).</p>
-                <blockquote cite="https://www.thefactsite.com/bmw-facts/">
-                    Well, BMW teamed up with Detroit Speed, who built a “custom dry break fuel system.” This meant that they could top up fuel whilst driving!
-                </blockquote>
-                <footer>
-                    <ul class="actions">
-                        <li><a href="single.html" class="button large">Continue Reading</a></li>
-                    </ul>
-                    <ul class="stats">
-                        <li><a href="#">Exciting</a></li>
-                        <li><a href="#" class="icon solid fa-heart" data-count="0">55</a></li>
-                        <li><a href="#" class="icon solid fa-comment">128</a></li>
-                    </ul>
-                </footer>
-            </article>
-
-            <!-- Pagination -->
-            <ul class="actions pagination">
-                <li><a href="" class="disabled button large previous">Previous Page</a></li>
-                <li><a href="#" class="button large next">Next Page</a></li>
-            </ul>
-
-        </div>
-
-        <!-- Sidebar -->
-        <section id="sidebar">
-
-            <!-- Intro -->
-            <section id="intro">
-                <a href="#" class="logo"><img src="./assets/images/bmw-logo2.png" alt="bmw logo" /></a>
-                <header>
-                    <h2>BMW</h2>
-                    <p>The German Luxury Car</p>
-                </header>
-            </section>
-
-            <!-- Mini blogs -->
-            <section id="my-articles">
-                <div class="mini-blogs">
-
-                    <!-- Mini blog -->
-                    <article class="mini-blog">
-                        <header>
-                            <h3><a href="single.html">Vitae sed condimentum</a></h3>
-                            <time class="published" datetime="2015-10-20">October 20, 2015</time>
-                            <a href="#" class="author"><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                        </header>
-                        <a href="single.html" class="image"><img src="./assets/images/bmw-close.png" alt="close up of bmw" /></a>
-                    </article>
-
-                    <!-- Mini blog -->
-                    <article class="mini-blog">
-                        <header>
-                            <h3><a href="single.html">Rutrum neque accumsan</a></h3>
-                            <time class="published" datetime="2015-10-19">October 19, 2015</time>
-                            <a href="#" class="author"><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                        </header>
-                        <a href="single.html" class="image"><img src="./assets/images/bmw-m440i-xdrive.jpg" alt="bmw m4" /></a>
-                    </article>
-
-                    <!-- Mini blog -->
-                    <article class="mini-blog">
-                        <header>
-                            <h3><a href="single.html">Odio congue mattis</a></h3>
-                            <time class="published" datetime="2015-10-18">October 18, 2015</time>
-                            <a href="#" class="author"><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                        </header>
-                        <a href="single.html" class="image"><img src="./assets/images/sexy-bmw-model.jpg" alt="bmw image" /></a>
-                    </article>
-
-                    <!-- Mini blog -->
-                    <article class="mini-blog">
-                        <header>
-                            <h3><a href="single.html">Enim nisl veroeros</a></h3>
-                            <time class="published" datetime="2015-10-17">October 17, 2015</time>
-                            <a href="#" class="author"><img src="./assets/images/bmw-logo.png" alt="bmw logo" /></a>
-                        </header>
-                        <a href="single.html" class="image"><img src="./assets/images/blue.jpg" alt="pretty blue bmw" /></a>
-                    </article>
-
-                </div>
-            </section>
-
-            <!-- blogs List -->
-            <section>
-                <ul class="blogs">
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
-                                <time class="published" datetime="2015-10-20">October 20, 2015</time>
-                            </header>
-                            <a href="single.html" class="image"><img src="./assets/images/green-bmw.jpg" alt="green car" /></a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="single.html">Iconic British brands Rover, MINI, and Rolls Royce are owned by BMW</a></h3>
-                                <time class="published" datetime="2015-10-15">October 15, 2015</time>
-                            </header>
-                            <a href="single.html" class="image"><img src="./assets/images/my-bmw.jpg" /></a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="single.html">HQ took inspiration from its famous four-cylinder engines</a></h3>
-                                <time class="published" datetime="2015-10-10">October 10, 2015</time>
-                            </header>
-                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png" alt="placeholder image" /></a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="single.html">Mercedes Benz attempted a takeover of BMW</a></h3>
-                                <time class="published" datetime="2015-10-08">October 8, 2015</time>
-                            </header>
-                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/" alt="placeholder image" /></a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="single.html">They built the world’s fastest motorcycle in 1937</a></h3>
-                                <time class="published" datetime="2015-10-06">October 7, 2015</time>
-                            </header>
-                            <a href="single.html" class="image"><img src="https://via.placeholder.com/300.png/" alt="placeholder image" /></a>
-                        </article>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- About -->
-            <section class="blurb">
-                <h2>About</h2>
-                <p class="underlined">Bayerische Motoren Werke AG, commonly referred to as BMW, is a German multinational corporate manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany.</p>
-                <ul class="actions">
-                    <li><a href="#" class="button">Learn More</a></li>
-                </ul>
-            </section>
-
-            <!-- About the Author -->
-            <section class="blurb">
-                <h2>Author</h2>
-                <p class="underlined">
-                    <img src="./assets/images/fox-avatar.gif" width="60" height="60">Lindsey Howard | Web Developer | Student | Bio: Based in Raleigh, NC. Dog Lover || Introvert || Car Enthusiast || Programmer.
-                    <ul class="actions">
-                        <li><a href="http://lindseyk.dev" class="button">My Page</a></li>
-                    </ul>
-                </p>
-            </section>
-
-            <!-- Footer -->
-            <section id="footer">
-                <ul class="icons">
-                    <li><a href="https://twitter.com/BMW?s=20&t=ozef1BRw_JE9LgeUu4vhcA" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/BMW/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/bmw/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://www.feedspot.com/infiniterss.php?_src=followbtn&followfeedid=187609&q=site:https%3A%2F%2Ffeeds.feedburner.com%2FBmwBlog" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-                    <li><a href="mailto:codelikeagirl91@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                </ul>
-                <p class="copyright">&copy; Visionary.</p>
-                <p class="img">
-                    <a href="http://lindseyk.dev/"><img src="https://img.shields.io/badge/Made%20With-Love-orange.svg" alt="built with love"></a>
-                </p>
-            </section>
-
-        </section>
-
+<body>
+  <!-- pre loader -->
+  <div id="load">
+    <div class="load__content">
+      <div class="load__icon"><img src="assets/images/icons/load.gif" alt="Loading icon" /></div>
     </div>
+  </div>
+  <!--Nav bar -->
+  <header class="theme-default">
+    <div id="search-box">
+      <div class="container">
+        <form action="https://formspree.io/f/xrgvoovo" method="POST">
+          <input type="text" placeholder="Searching blog content .." name="search" />
+          <button><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-wrapper header">
+        <a class="header__logo" href="index.html"><img src="./assets/images/logo1.png" alt="Logo" /></a>
+        <nav>
+          <ul>
+            <li class="nav-item active"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="blog-category.html">Blog</a>
+              <!-- Blog category drop down -->
+              <!-- <ul class="dropdown-menu">
+                  <li><a href="#">BLOG CATEGORY 1</a></li>
+                  <li><a href="#">BLOG CATEGORY 2</a></li>
+                  <li><a href="#">BLOG CATEGORY 3</a></li>
+                </ul> -->
+            </li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Social Icons -->
+        <div class="header__icon-group"><a href="#" id="search"><i class="fas fa-search"></i></a>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-github-alt"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a id="mobile-menu-controller" href="#"><i class="fas fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Section starts here -->
+  <div id="content">
+    <div class="container">
+      <div class="blog-with-sidebar">
+        <div class="row">
+          <!-- Right side bar starts here which contains the Category & Trending Post -->
+          <div class="col-12 col-md-5 col-lg-4 order-md-2">
+            <div class="blog-sidebar">
+              <div class="blog-sidebar-section -category">
+                <div class="center-line-title">
+                  <!-- Blog category sidebar -->
+                  <h5>Categories</h5>
+                </div>
+                <a class="category -bar " href="blog-category.html">
+                  <!--Category 1::Background Image size is 340 x 80   -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-a.png)"></div>
+                  <h5 class="title">Model Reviews</h5>
+                  <h5 class="quantity">12</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 2::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-b.png)"></div>
+                  <h5 class="title">News & Updates</h5>
+                  <h5 class="quantity">6</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 3::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-c.png)"></div>
+                  <h5 class="title">Tech & Innovation</h5>
+                  <h5 class="quantity">15</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 4::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-d.png)"></div>
+                  <h5 class="title">History</h5>
+                  <h5 class="quantity">8</h5>
+                </a>
+              </div>
+              <!-- Trending Post Side Bar Section-->
+              <div class="blog-sidebar-section -trending-post">
+                <div class="center-line-title">
+                  <h5>Trending post</h5>
+                </div>
+                <!--Trending Post 1 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">1</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-a.png" alt="Naming conventions" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">Naming Conventions</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/app.js"></script>
+                <!-- Trending Post 2 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">2</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-b.png" alt="Exploring the All-New BMW iX" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>News & Updates</h5>
+                    <a href="post.html">Exploring the All-New BMW iX</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
 
+                <!-- Trending Post 3 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">3</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-c.png" alt="What makes BMW different?" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>Tech & Innovation</h5>
+                    <a href="post.html">What makes BMW different?</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 4 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">4</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-d.png" alt="BMW vs. Audi" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">BMW vs. Audi</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 5 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">5</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-e.jpg" alt="The Evolution of the BMW 7 Series" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">The Evolution of the BMW 7 Series</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Subscribe Form -->
+              <form class="subscribe-box subscribe-box" action="/" method="POST">
+                <h5>Subscribe</h5>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed tempor.</p>
+                <input placeholder="Your email" name="email" type="email" />
+                <a class="btn -normal" href="#">Subscribe</a>
+              </form>
+            </div>
+          </div>
+          <!--- End of Right Side Bar ----->
+
+          <div class="col-12 col-md-7 col-lg-8 order-md-1">
+            <div class="row">
+              <div class="col-sm-6 col-md-12">
+                <div class="post-card -full -center">
+                  <a class="card__cover" href="post.html">
+                    <img src="assets/images/posts/img1.png" alt="How BMW Became a Symbol of Luxury" />
+                  </a>
+                  <div class="card__content">
+                    <!-- Content Category -->
+                    <h5 class="card__content-category">History</h5>
+                    <!-- Content Heading -->
+                    <a class="card__content-title" href="post.html">How BMW Became a Symbol of Luxury</a>
+                    <div class="card__content-info">
+                      <!-- Content Author -->
+                      <div class="info__time info__author"><i class="far fa-user"></i>
+                        <p>Kelvin</p>
+                      </div>
+                      <!-- Content Time and Date -->
+                      <div class="info__time"><i class="far fa-clock"></i>
+                        <p>Wed 02, 2023</p>
+                      </div>
+                      <!-- Comments -->
+                      <div class="info__comment"><i class="far fa-comment"></i>
+                        <p>3</p>
+                      </div>
+                    </div>
+                    <!-- post Description -->
+                    <p class="card__content-description">For over a century, BMW has been synonymous with luxury,
+                      precision, and performance. What began as a small aircraft
+                      engine manufacturer in Germany has evolved into a global icon of automotive excellence.</p>
+                    <a class="more-btn" href="post.html">Read more </a>
+                  </div>
+                </div>
+              </div>
+              <div class="news-block__content -default">
+                <div class="news-block__content__slide">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="post-card -large">
+                        <a class="card__cover" href="post.html">
+                          <!-- img size 750 x 385 -->
+                          <img src="./assets/images/posts/img2.png" alt="Ecommerce Development Trends" /></a>
+                        <div class="card__content">
+                          <!-- Post Content -->
+                          <h5 class="card__content-category">News & Updates</h5>
+                          <a class="card__content-title" href="post.html">A Day in the Life of a BMW Owner</a>
+                          <div class="card__content-info">
+                            <div class="info__time">
+                              <i class="far fa-clock"></i>
+                              <p>Wed 02, 2023</p>
+                            </div>
+                            <div class="info__comment"><i class="far fa-comment"></i>
+                              <p>3</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="post-card -small">
+                            <a class="card__cover" href="post.html">
+                              <!-- img size 370 x 247 -->
+                              <img src="./assets/images/posts/bmw-lineup.jpg"
+                                alt="How BMW Became a Symbol of Luxury" /></a>
+                            <!-- Post content -->
+                            <div class="card__content">
+                              <h5 class="card__content-category">History</h5>
+                              <a class="card__content-title" href="post.html">How BMW Became a Symbol of Luxury</a>
+                              <div class="card__content-info">
+                                <div class="info__time"><i class="far fa-clock"></i>
+                                  <p>Wed 02, 2023</p>
+                                </div>
+                                <div class="info__comment"><i class="far fa-comment"></i>
+                                  <p>3</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="post-card -small">
+                            <a class="card__cover" href="post.html">
+                              <!-- img size 370 x 247 -->
+                              <img src="./assets/images/posts/bmw-7.jpg"
+                                alt="Best design resources websites every developer should bookmark" /></a>
+                            <!-- post content -->
+                            <div class="card__content">
+                              <h5 class="card__content-category">News & Updates</h5>
+                              <a class="card__content-title" href="post.html">10 Essential Tips for New BMW Owners</a>
+                              <div class="card__content-info">
+                                <div class="info__time"><i class="far fa-clock"></i>
+                                  <p>Wed 02, 2023</p>
+                                </div>
+                                <div class="info__comment"><i class="far fa-comment"></i>
+                                  <p>3</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                          <div class="post-card -small">
+                            <a class="card__cover" href="post.html">
+                              <!-- img size 370 x 247 -->
+                              <img src="./assets/images/posts/car.jpg"
+                                alt="Why BMW's iDrive System is a Game-Changer" /></a>
+                            <!-- Content -->
+                            <div class="card__content">
+                              <h5 class="card__content-category">Tech & Innovation</h5>
+                              <a class="card__content-title" href="post.html">Why BMW's iDrive System is a
+                                Game-Changer</a>
+                              <div class="card__content-info">
+                                <div class="info__time"><i class="far fa-clock"></i>
+                                  <p>Wed 02, 2023</p>
+                                </div>
+                                <div class="info__comment"><i class="far fa-comment"></i>
+                                  <p>3</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="post-card -small">
+                            <a class="card__cover" href="post.html">
+                              <!-- img size 370 x 247 -->
+                              <img src="./assets/images/posts/bmw-m8.jpg"
+                                alt="Top 10 BMW Models You Should Drive Before You Die" /></a>
+                            <!-- Content -->
+                            <div class="card__content">
+                              <h5 class="card__content-category">History</h5>
+                              <a class="card__content-title" href="post.html">Top 10 BMW Models You Should Drive Before
+                                You Die</a>
+                              <div class="card__content-info">
+                                <div class="info__time"><i class="far fa-clock"></i>
+                                  <p>Wed 02, 2023</p>
+                                </div>
+                                <div class="info__comment"><i class="far fa-comment"></i>
+                                  <p>3</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer starts Here -->
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-col -about">
+                  <div class="center-line-title">
+                    <h5>About us</h5>
+                  </div>
+                  <p>The BMW Group is the world's leading provider of premium cars and motorcycles and the home of the
+                    BMW, MINI, Rolls-Royce
+                    and BMW Motorrad brands. </p>
+                  <div class="contact-method">
+                    <p> <i class="fas fa-map-marker-alt"></i>Munich, Germany</p>
+                    <p> <i class="far fa-mobile-android"></i>+49 89 382-0 | 1-800-831-1117</p>
+                    <p> <i class="far fa-envelope-open"></i>bmwgenius@bmwusa.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-col -feature-post">
+                  <div class="center-line-title">
+                    <h5>Feature posts</h5>
+                  </div>
+                  <div class="feature-post-block">
+                    <div class="post-card -tiny">
+                      <a class="card__cover" href="post.html">
+                        <!-- img size 360 x 360 -->
+                        <img src="assets/images/posts/bmw1.jpg" alt="Naming conventions" />
+                      </a>
+                      <div class="card__content">
+                        <h5 class="card__content-category">History</h5>
+                        <a class="card__content-title" href="post.html">Naming conventions</a>
+                        <div class="card__content-info">
+                          <div class="info__time"><i class="far fa-clock"></i>
+                            <p>Wed 02, 2024</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="post-card -tiny">
+                      <a class="card__cover" href="post.html">
+                        <!-- img size 360 x 360 -->
+                        <img src="assets/images/posts/bmw2.jpg" alt="BMW Road Trip Ideas" />
+                      </a>
+                      <div class="card__content">
+                        <h5 class="card__content-category">Model Reviews</h5>
+                        <a class="card__content-title" href="post.html">BMW Road Trip Ideas</a>
+                        <div class="card__content-info">
+                          <div class="info__time"><i class="far fa-clock"></i>
+                            <p>Wed 02, 2023</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="post-card -tiny">
+                      <!-- img size 360 -->
+                      <a class="card__cover" href="post.html">
+                        <img src="assets/images/posts/car.jpg" alt="Customization and Tuning Tips" />
+                      </a>
+                      <!-- content -->
+                      <div class="card__content">
+                        <h5 class="card__content-category">Performance</h5>
+                        <a class="card__content-title" href="post.html">Customization and Tuning Tips</a>
+                        <div class="card__content-info">
+                          <div class="info__time"><i class="far fa-clock"></i>
+                            <p>Wed 02, 2023</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="footer-col -util">
+                  <div class="row">
+                    <!-- Blog Tags -->
+                    <div class="col-12 col-md-6 col-lg-12">
+                      <div class="center-line-title">
+                        <h5>Blog Tags</h5>
+                      </div>
+                      <div class="tags-group"><a class="tag-btn" href="blog-category.html">BMW</a>
+                        <a class="tag-btn" href="blog-category.html">History</a>
+                        <a class="tag-btn" href="blog-category.html">News & Updates</a>
+                        <a class="tag-btn" href="blog-category.html">Tech & Innovation</a>
+                        <a class="tag-btn" href="blog-category.html">Performance</a>
+                        <a class="tag-btn" href="blog-category.html">Model Reviews</a>
+                      </div>
+                    </div>
+                    <!-- Social Media -->
+                    <div class="col-12 col-md-6 col-lg-12">
+                      <div class="center-line-title">
+                        <h5>Follow us</h5>
+                      </div>
+                      <div class="social-block"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>© 2024, <i class="fa-solid fa-code"></i> by Lindsey - All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+
+      <!--js files are in assets/js-->
+      <script rel="script/javascript" src="assets/js/jquery.min.js"></script>
+      <script rel="script/javascript" src="assets/js/slick.min.js"></script>
+      <script rel="script/javascript" src="assets/js/plyr.min.js"></script>
+      <script rel="script/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+      <script rel="script/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
+      <script rel="script/javascript" src="assets/js/vimeo.player.min.js"></script>
+      <script rel="script/javascript" src="assets/js/main.js"></script>
+      <!--end of js files-->
 </body>
 
 </html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luxury Car Blog</title>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png" />
+  <!--build:css assets/css/styles.min.css-->
+  <link rel="stylesheet" href="assets/css/elegant.css" />
+  <link rel="stylesheet" href="assets/css/custom_bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/plyr.min.css" />
+  <!-- cutom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--endbuild-->
+</head>
+
+<body>
+  <!-- pre loader -->
+  <div id="load">
+    <div class="load__content">
+      <div class="load__icon"><img src="assets/images/icons/load.gif" alt="Loading icon" /></div>
+    </div>
+  </div>
+  <!--Nav bar -->
+  <header class="theme-default">
+    <div id="search-box">
+      <div class="container">
+        <form action="/" method="POST">
+          <input type="text" placeholder="Searching for news" name="search" />
+          <button><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header__logo" href="index.html"><img src="./assets/images/logo1.png" alt="Logo" /></a>
+        <nav>
+          <ul>
+            <li class="nav-item active"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="blog-category.html">Blog</a>
+              <!-- Blog category drop down -->
+              <!-- <ul class="dropdown-menu">
+                  <li><a href="#">BLOG CATEGORY 1</a></li>
+                  <li><a href="#">BLOG CATEGORY 2</a></li>
+                  <li><a href="#">BLOG CATEGORY 3</a></li>
+                </ul> -->
+            </li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Social Icons -->
+        <div class="header__icon-group"><a href="#" id="search"><i class="fas fa-search"></i></a>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a id="mobile-menu-controller" href="#"><i class="fas fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- post starts here -->
+  <div id="content">
+    <div class="post">
+      <div class="container">
+        <div class="post-standard">
+          <div class="post-standard__banner">
+            <div class="post-standard__banner__image">
+              <img src="assets/images/post_detail/standard/img1.png" alt="Post banner image" />
+            </div>
+            <div class="post-standard__banner__content">
+              <div class="post-card -center">
+                <div></div>
+                <div class="card__content">
+                  <h5 class="card__content-category">Model Reviews</h5>
+                  <a class="card__content-title" post.html">The Best Road Trip Routes for BMW Enthusiasts</a>
+                  <div class="card__content-info">
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Sat 04, 2025</p>
+                    </div>
+                    <div class="info__comment"><i class="far fa-comment"></i>
+                      <p>3</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-8 mx-auto">
+              <div class="post-standard__content">
+                <!-- Post share icons -->
+                <div id="post-share">
+                  <h5>Share:</h5>
+                  <div class="social-media">
+                    <a href="#" style="background-color: #075ec8">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" style="background-color: #40c4ff">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#"
+                      style="background-image: linear-gradient(to top, #f2a937, #d92e73, #9937b7, #4a66d3), linear-gradient(to top, #af00e1, #ff9e35)">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" style="background-color: #ff0000">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- content Starts here -->
+                <p class="paragraph">There’s nothing quite like taking your BMW out on the open road. From its
+                  responsive handling to its thrilling
+                  performance, every mile feels like an experience. Whether you’re driving a classic 3 Series or a
+                  modern X5, these road
+                  trip routes offer a perfect combination of scenic views and opportunities to enjoy the ultimate
+                  driving machine. Buckle
+                  up and get ready to explore some of the most iconic routes for your next BMW adventure.
+                </p>
+                <p class="paragraph">One of the most iconic drives in the world, the <span><u>Pacific Coast
+                      Highway</u></span> in California, offers breathtaking ocean views and
+                  winding roads that feel like they were designed for BMW’s precision handling. Spanning from Monterey
+                  to Malibu, this
+                  highway is best enjoyed during sunrise, with stops at Big Sur and Santa Barbara for photo-worthy
+                  moments. Meanwhile, for
+                  those craving a European adventure, Germany’s Black Forest High Road provides smooth roads and scenic
+                  landscapes.
+                  Driving through this region feels like a homage to BMW’s roots, especially if paired with a visit to
+                  the BMW Museum in
+                  Munich.
+                </p>
+                <div class="post-card-quote -border">
+                  <div class="qoute__icon">
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                  <p class="quote__content">Driving a BMW turns every journey into an adventure; it’s not just about the
+                    destination, but the thrill of the road
+                    ahead.</p>
+                  <h5 class="quote__author"></h5>
+                </div>
+                <p class="paragraph">Closer to home for U.S. drivers, the Tail of the Dragon along the Tennessee-North
+                  Carolina border is a thrilling
+                  challenge with its 318 curves packed into just 11 miles. The route is perfect for BMW enthusiasts who
+                  crave sharp turns
+                  and high-performance driving. For a more diverse landscape, South Africa’s Garden Route blends coastal
+                  views, lush
+                  forests, and mountains, offering a peaceful yet adventurous journey ideal for exploring with a BMW.
+                </p>
+                <!-- img size 370 x 370 -->
+                <img class="image left" src="assets/images/post_detail/bmw-blog-img.png" alt="Post image" />
+                <p class="paragraph">For those who truly crave adventure, consider venturing off the beaten path and
+                  creating your own road trip routes. A
+                  BMW’s combination of power, luxury, and technology ensures that you’re always in control and enjoying
+                  the ride. Whether
+                  you’re weaving through mountain switchbacks, cruising along a coastal highway, or exploring country
+                  roads, the
+                  versatility of a BMW makes every terrain a new challenge to conquer.
+                </p>
+                <p class="paragraph">Modern BMW models come equipped with advanced features like adaptive cruise
+                  control, lane-keeping assistance, and
+                  real-time navigation, which can make your trips safer and more enjoyable. Plus, the spacious interiors
+                  of SUVs like the
+                  X5 or X7 mean you can bring along family, friends, and all the gear you need for the ultimate road
+                  trip experience. From
+                  sporty sedans to capable crossovers, there’s a BMW for every type of adventure.
+                </p>
+                <p class="paragraph">Driving a BMW isn’t just about getting from point A to point B; it’s about enjoying
+                  the journey. These road trip routes
+                  are perfect for experiencing everything that makes a BMW the ultimate driving machine. Whether you’re
+                  carving through
+                  mountain passes or cruising along coastal highways, these adventures are sure to leave you with
+                  unforgettable memories.
+                </p>
+                <p class="paragraph">Start planning your next road trip and let your BMW take you there in style!!
+                </p>
+                <!-- Post footer -->
+                <div class="post-footer">
+                  <div class="post-footer__tags center">
+                    <div class="tags-group">
+                      <a class="tag-btn" href="blog-category.html">BMW</a>
+                      <a class="tag-btn" href="blog-category.html">Travel</a>
+                      <a class="tag-btn" href="blog-category.html">Driving Routes</a>
+                      <a class="tag-btn" href="blog-category.html">Road Trips</a>
+                      <a class="tag-btn" href="blog-category.html">Adventure</a>
+                    </div>
+                  </div>
+                  <div class="post-footer__author">
+                    <div class="author__avatar">
+                      <!-- img size 150 x 150 -->
+                      <img src="assets/images/post_detail/auth.png" alt="Author avatar" />
+                    </div>
+                    <!-- Author Info -->
+                    <div class="author__info">
+                      <h5>Lindsey K</h5>
+                      <p>A frontend web developer and BMW enthusiast who loves exploring the world’s best driving routes
+                        and sharing
+                        her passion for the ultimate driving machine.</p>
+                      <!-- social Media -->
+                      <div class="social-media">
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-dribbble"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Related Posts -->
+                  <div class="post-footer__related">
+                    <div class="post-footer__related__item -prev">
+                      <!-- <a href="post_standard.html"> <i class="fas fa-chevron-left"></i>Previous posts</a> -->
+                      <div class="post-footer__related__item__content">
+                        <!-- img size 360 x 360 -->
+                        <img src="assets/images/posts/bmw-7.jpg" alt="Relate news image" />
+                        <div class="post-card ">
+                          <div></div>
+                          <div class="card__content">
+                            <h5 class="card__content-category">News & Updates</h5>
+                            <a class="card__content-title" href="#">10 Essential Tips for New BMW Owners</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="post-footer__related__item -next">
+                      <!-- <a href="#">Next posts<i class="fas fa-chevron-right"></i></a> -->
+                      <div class="post-footer__related__item__content">
+                        <div class="post-card -right">
+                          <div></div>
+                          <div class="card__content">
+                            <h5 class="card__content-category">News & Updates</h5>
+                            <a class="card__content-title" href="#">A Day in the Life of a BMW Owner</a>
+                          </div>
+                        </div>
+                        <img src="assets/images/posts/img2.png" alt="Relate news image" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- comments  -->
+                  <div class="post-footer__comment">
+                    <h3 class="comment-title"> <span>3 comment</span></h3>
+                    <div class="post-footer__comment__detail">
+
+                      <div class="comment__item">
+                        <div class="comment__item__avatar">
+                          <img src="assets/images/post_detail/avatar/1.png" alt="Author avatar" />
+                        </div>
+                        <div class="comment__item__content">
+                          <div class="comment__item__content__header">
+                            <h5>Sophia Reynolds</h5>
+                            <div class="data">
+                              <p><i class="far fa-clock"></i>Nov 02, 2024</p>
+                              <p><i class="far fa-heart"></i>12</p>
+                              <p><i class="far fa-share-square"></i>1</p>
+                            </div>
+                          </div>
+                          <p>As a fellow BMW enthusiast, I can’t wait to try the Pacific Coast Highway route. The tips
+                            and stops you mentioned are
+                            super helpful!</p>
+                        </div>
+                      </div>
+
+                      <div class="comment__item">
+                        <div class="comment__item__avatar"><img src="assets/images/post_detail/avatar/2.png"
+                            alt="Author avatar" /></div>
+                        <div class="comment__item__content">
+                          <div class="comment__item__content__header">
+                            <h5>Alex Carter </h5>
+                            <div class="data">
+                              <p><i class="far fa-clock"></i>Nov 02, 2024</p>
+                              <p><i class="far fa-heart"></i>12</p>
+                              <p><i class="far fa-share-square"></i>1</p>
+                            </div>
+                          </div>
+                          <p>This article is fantastic! I’ve been dreaming about taking my M3 on the Stelvio Pass, and
+                            now I’m even more motivated.
+                            Thanks for the inspiration!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- comment Form -->
+                    <h3 class="comment-title"> <span>Leave a comment</span></h3>
+                    <div class="post-footer__comment__form">
+                      <form action="https://formspree.io/f/xrgvoovo" method="POST">
+                        <div class="row">
+                          <div class="col-12 col-sm-4">
+                            <input type="text" placeholder="Name" name="name" />
+                          </div>
+                          <div class="col-12 col-sm-4">
+                            <input type="email" placeholder="Email" name="email" />
+                          </div>
+                          <div class="col-12 col-sm-4">
+                            <input type="text" placeholder="Webiste" name="website" />
+                          </div>
+                        </div>
+                        <textarea cols="30" rows="5" placeholder="Messages" name="message"></textarea>
+                      </form>
+                      <div class="center">
+                        <button class="btn -normal">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer starts here -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-col -about">
+              <div class="center-line-title">
+                <h5>About us</h5>
+              </div>
+              <p>The BMW Group is the world's leading provider of premium cars and motorcycles and the home of the BMW,
+                MINI, Rolls-Royce
+                and BMW Motorrad brands. </p>
+              <div class="contact-method">
+                <p> <i class="fas fa-map-marker-alt"></i>Munich, Germany</p>
+                <p> <i class="far fa-mobile-android"></i>+49 89 382-0 | 1-800-831-1117</p>
+                <p> <i class="far fa-envelope-open"></i>bmwgenius@bmwusa.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-col -feature-post">
+              <div class="center-line-title">
+                <h5>Feature posts</h5>
+              </div>
+              <div class="feature-post-block">
+                <div class="post-card -tiny">
+                  <a class="card__cover" href="post.html">
+                    <!-- img size 360 x 360 -->
+                    <img src="assets/images/posts/bmw1.jpg" alt="Naming conventions" />
+                  </a>
+                  <div class="card__content">
+                    <h5 class="card__content-category">History</h5>
+                    <a class="card__content-title" href="post.html">Naming conventions</a>
+                    <div class="card__content-info">
+                      <div class="info__time"><i class="far fa-clock"></i>
+                        <p>Wed 02, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-card -tiny">
+                  <a class="card__cover" href="post.html">
+                    <!-- img size 360 x 360 -->
+                    <img src="assets/images/posts/bmw2.jpg" alt="BMW Road Trip Ideas" />
+                  </a>
+                  <div class="card__content">
+                    <h5 class="card__content-category">Model Reviews</h5>
+                    <a class="card__content-title" href="post.html">BMW Road Trip Ideas</a>
+                    <div class="card__content-info">
+                      <div class="info__time"><i class="far fa-clock"></i>
+                        <p>Wed 02, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-card -tiny">
+                  <!-- img size 360 -->
+                  <a class="card__cover" href="post.html">
+                    <img src="assets/images/posts/car.jpg" alt="Customization and Tuning Tips" />
+                  </a>
+                  <!-- content -->
+                  <div class="card__content">
+                    <h5 class="card__content-category">Performance</h5>
+                    <a class="card__content-title" href="post.html">Customization and Tuning Tips</a>
+                    <div class="card__content-info">
+                      <div class="info__time"><i class="far fa-clock"></i>
+                        <p>Wed 02, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="footer-col -util">
+              <div class="row">
+                <!-- Blog Tags -->
+                <div class="col-12 col-md-6 col-lg-12">
+                  <div class="center-line-title">
+                    <h5>Blog Tags</h5>
+                  </div>
+                  <div class="tags-group"><a class="tag-btn" href="blog-category.html">BMW</a>
+                    <a class="tag-btn" href="blog-category.html">History</a>
+                    <a class="tag-btn" href="blog-category.html">News & Updates</a>
+                    <a class="tag-btn" href="blog-category.html">Tech & Innovation</a>
+                    <a class="tag-btn" href="blog-category.html">Performance</a>
+                    <a class="tag-btn" href="blog-category.html">Model Reviews</a>
+                  </div>
+                </div>
+                <!-- Social Media -->
+                <div class="col-12 col-md-6 col-lg-12">
+                  <div class="center-line-title">
+                    <h5>Follow us</h5>
+                  </div>
+                  <div class="social-block"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024, <i class="fa-solid fa-code"></i> by Lindsey - All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--js files are in assets/js-->
+  <script rel="script/javascript" src="assets/js/jquery.min.js"></script>
+  <script rel="script/javascript" src="assets/js/slick.min.js"></script>
+  <script rel="script/javascript" src="assets/js/plyr.min.js"></script>
+  <script rel="script/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+  <script rel="script/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
+  <script rel="script/javascript" src="assets/js/vimeo.player.min.js"></script>
+  <script rel="script/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

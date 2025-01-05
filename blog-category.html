@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luxury Car Blog</title>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png" />
+  <!--build:css assets/css/styles.min.css-->
+  <link rel="stylesheet" href="assets/css/elegant.css" />
+  <link rel="stylesheet" href="assets/css/custom_bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/plyr.min.css" />
+  <!-- cutom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--endbuild-->
+</head>
+
+<body>
+  <!-- pre loader -->
+  <div id="load">
+    <div class="load__content">
+      <div class="load__icon"><img src="assets/images/icons/load.gif" alt="Loading icon" /></div>
+    </div>
+  </div>
+  <!--Nav bar -->
+  <header class="theme-default">
+    <div id="search-box">
+      <div class="container">
+        <form action="https://formspree.io/f/xrgvoovo" method="POST">
+          <input type="text" placeholder="Searching for news" name="search" />
+          <button><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header__logo" href="index.html"><img src="./assets/images/logo1.png" alt="Logo" /></a>
+        <nav>
+          <ul>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item active"><a>Blog</a>
+              <!-- Blog Nav category drop down uncomment if you want a drop down-->
+              <!-- <ul class="dropdown-menu">
+                  <li><a href="#">BLOG CATEGORY 1</a></li>
+                  <li><a href="#">BLOG CATEGORY 2</a></li>
+                  <li><a href="#">BLOG CATEGORY 3</a></li>
+                </ul> -->
+            </li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Social Icons -->
+        <div class="header__icon-group"><a href="#" id="search"><i class="fas fa-search"></i></a>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a id="mobile-menu-controller" href="#"><i class="fas fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main content starts here -->
+  <div class="no-pd" id="content">
+    <div class="container">
+      <div class="breadcrumb">
+        <ul>
+          <li><a href="index.html"> <i class="fas fa-home"></i>Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li class="active"><a href="#">Category</a></li>
+        </ul>
+      </div>
+      <div class="category">
+        <div class="row">
+          <div class="col-12 col-md-5 col-lg-4 order-md-2">
+            <div class="blog-sidebar">
+              <div class="blog-sidebar-section -category">
+                <div class="center-line-title">
+                  <h5>Categories</h5>
+                </div>
+                <a class="category -bar " href="blog-category.html">
+                  <!--Category 1::Background Image size is 340 x 80   -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-a.png)"></div>
+                  <h5 class="title">Model Reviews</h5>
+                  <h5 class="quantity">12</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 2::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-b.png)"></div>
+                  <h5 class="title">News & Updates</h5>
+                  <h5 class="quantity">6</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 3::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-c.png)"></div>
+                  <h5 class="title">Tech & Innovation</h5>
+                  <h5 class="quantity">15</h5>
+                </a><a class="category -bar " href="blog-category.html">
+                  <!-- Category 4::Background Image size is 340 x 80 -->
+                  <div class="category__background"
+                    style="background-image: url(assets/images/backgrounds/category-d.png)"></div>
+                  <h5 class="title">History</h5>
+                  <h5 class="quantity">8</h5>
+                </a>
+              </div>
+              <div class="blog-sidebar-section -trending-post">
+                <div class="center-line-title">
+                  <h5>Trending post</h5>
+                </div>
+                <!--Trending Post 1 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">1</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-a.png" alt="Naming conventions" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">Naming Conventions</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 2 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">2</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-b.png" alt="Exploring the All-New BMW iX" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>News & Updates</h5>
+                    <a href="post.html">Exploring the All-New BMW iX</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 3 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">3</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-c.png" alt="What makes BMW different?" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>Tech & Innovation</h5>
+                    <a href="post.html">What makes BMW different?</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 4 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">4</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-d.png" alt="BMW vs. Audi" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">BMW vs. Audi</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Trending Post 5 -->
+                <div class="trending-post">
+                  <div class="trending-post_image">
+                    <div class="rank">5</div>
+                    <!--Img size is 100 x 100 -->
+                    <img src="assets/images/backgrounds/trending-post-e.jpg" alt="The Evolution of the BMW 7 Series" />
+                  </div>
+                  <div class="trending-post_content">
+                    <!-- Category Header -->
+                    <h5>History</h5>
+                    <a href="post.html">The Evolution of the BMW 7 Series</a>
+                    <div class="info__time"><i class="far fa-clock"></i>
+                      <p>Nov 02, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form class="subscribe-box subscribe-box" action="/" method="POST">
+                <h5>subscribe</h5>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed tempor.</p>
+                <input placeholder="Your email" name="email" type="email" /><a class="btn -normal"
+                  href="#">subscribe</a>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 col-lg-8 order-md-1">
+            <div class="category__header">
+              <div class="category__header__text">
+                <h5>Categories:</h5><a href="#">News & Updates</a>
+              </div>
+              <div class="category__header__filter">
+              </div>
+            </div>
+            <div class="category_content"></div>
+            <div class="pagination">
+              <ul>
+                <li class="active"><a href="javascript:void(0)">1</a></li>
+                <li class="pagination__page-number"><a href="javascript:void(0)">2</a></li>
+                <li class="pagination__page-number"><a href="javascript:void(0)">3</a></li>
+                <li><a class="next" href="javascript:void(0)">></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer starts Here -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="footer-col -about">
+                <div class="center-line-title">
+                  <h5>About us</h5>
+                </div>
+                <p>The BMW Group is the world's leading provider of premium cars and motorcycles and the home of the
+                  BMW,
+                  MINI, Rolls-Royce
+                  and BMW Motorrad brands. </p>
+                <div class="contact-method">
+                  <p> <i class="fas fa-map-marker-alt"></i>Munich, Germany</p>
+                  <p> <i class="far fa-mobile-android"></i>+49 89 382-0 | 1-800-831-1117</p>
+                  <p> <i class="far fa-envelope-open"></i>bmwgenius@bmwusa.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="footer-col -feature-post">
+                <div class="center-line-title">
+                  <h5>Feature posts</h5>
+                </div>
+                <div class="feature-post-block">
+                  <div class="post-card -tiny">
+                    <a class="card__cover" href="post.html">
+                      <!-- img size 360 x 360 -->
+                      <img src="assets/images/posts/bmw1.jpg" alt="Naming conventions" />
+                    </a>
+                    <div class="card__content">
+                      <h5 class="card__content-category">History</h5>
+                      <a class="card__content-title" href="post.html">Naming conventions</a>
+                      <div class="card__content-info">
+                        <div class="info__time"><i class="far fa-clock"></i>
+                          <p>Wed 02, 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-card -tiny">
+                    <a class="card__cover" href="post.html">
+                      <!-- img size 360 x 360 -->
+                      <img src="assets/images/posts/bmw2.jpg" alt="BMW Road Trip Ideas" />
+                    </a>
+                    <div class="card__content">
+                      <h5 class="card__content-category">Model Reviews</h5>
+                      <a class="card__content-title" href="post.html">BMW Road Trip Ideas</a>
+                      <div class="card__content-info">
+                        <div class="info__time"><i class="far fa-clock"></i>
+                          <p>Wed 02, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-card -tiny">
+                    <!-- img size 360 -->
+                    <a class="card__cover" href="post.html">
+                      <img src="assets/images/posts/car.jpg" alt="Customization and Tuning Tips" />
+                    </a>
+                    <!-- content -->
+                    <div class="card__content">
+                      <h5 class="card__content-category">Performance</h5>
+                      <a class="card__content-title" href="post.html">Customization and Tuning Tips</a>
+                      <div class="card__content-info">
+                        <div class="info__time"><i class="far fa-clock"></i>
+                          <p>Wed 02, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="footer-col -util">
+                <div class="row">
+                  <!-- Blog Tags -->
+                  <div class="col-12 col-md-6 col-lg-12">
+                    <div class="center-line-title">
+                      <h5>Blog Tags</h5>
+                    </div>
+                    <div class="tags-group"><a class="tag-btn" href="blog-category.html">BMW</a>
+                      <a class="tag-btn" href="blog-category.html">History</a>
+                      <a class="tag-btn" href="blog-category.html">News & Updates</a>
+                      <a class="tag-btn" href="blog-category.html">Tech & Innovation</a>
+                      <a class="tag-btn" href="blog-category.html">Performance</a>
+                      <a class="tag-btn" href="blog-category.html">Model Reviews</a>
+                    </div>
+                  </div>
+                  <!-- Social Media -->
+                  <div class="col-12 col-md-6 col-lg-12">
+                    <div class="center-line-title">
+                      <h5>Follow us</h5>
+                    </div>
+                    <div class="social-block"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2024, <i class="fa-solid fa-code"></i> by Lindsey - All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--js files are in assets/js-->
+    <script rel="script/javascript" src="assets/js/jquery.min.js"></script>
+    <script rel="script/javascript" src="assets/js/slick.min.js"></script>
+    <script rel="script/javascript" src="assets/js/plyr.min.js"></script>
+    <script rel="script/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+    <script rel="script/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script rel="script/javascript" src="assets/js/vimeo.player.min.js"></script>
+    <script rel="script/javascript" src="assets/js/main.js"></script>
+    <!--end of js files-->
+</body>
+
+</html>
