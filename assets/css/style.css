@@ -523,7 +523,6 @@ header .header-wrapper nav ul>li.active>a:hover:after {
 }
 
 header .header-wrapper nav ul>li>a {
-  text-transform: uppercase;
   color: #111;
   font-size: 1em;
   font-weight: 600;
@@ -693,7 +692,7 @@ header.is-mobile nav ul>li {
   display: block;
   border-bottom: 1px solid #e1e1e1;
   margin: 0;
-  padding: 20px 0 20px;
+  padding: 20px 0;
   z-index: 100;
 }
 
@@ -1320,7 +1319,6 @@ header.-theme--violet .header-wrapper .header__icon-group #search.active {
 }
 
 .post-card .card__content-title {
-  display: block;
   margin-bottom: 0.625em;
   color: #111;
   font-size: 1.375em;
@@ -1843,7 +1841,6 @@ footer .copyright {
 .category.-round .category__background {
   height: 12.5em;
   width: 12.5em;
-  margin-bottom: 1.875em;
   border-radius: 999px;
   margin: 0 auto;
   margin-bottom: 1.875em;
@@ -2608,7 +2605,6 @@ footer .copyright {
   background-color: #fff;
   padding: 1.42857em 2.14286em;
   text-align: center;
-  border: 0;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -ms-transition: 0.2s ease-in-out;
@@ -3029,7 +3025,6 @@ footer .copyright {
   color: #444;
   font-size: 15px;
   font-weight: 400;
-  line-height: 1;
   border-radius: 999px;
   background-color: #f5f5f5;
   padding: 0;
@@ -3101,7 +3096,7 @@ footer .copyright {
 
 .post-footer__tags .tags-group .tag-btn {
   margin-bottom: 0;
-  padding: 0.9375em 0.9375em;
+  padding: 0.9375em;
   font-size: 0.875em;
 }
 
@@ -3669,7 +3664,6 @@ footer .copyright {
   padding-left: 1.875em;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -4630,7 +4624,6 @@ Blog layouts
   left: 0.9375em;
   right: 0.9375em;
   z-index: 5;
-  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -4893,7 +4886,6 @@ Blog layouts
 .post .blog-flower .blog-flower__section.post-standard.-audio .news-block .video-container,
 .blog-flower .post .blog-flower__section.post-standard.-quote .news-block .video-container,
 .post .blog-flower .blog-flower__section.post-standard.-quote .news-block .video-container {
-  padding: 0 0.3125em;
   position: relative;
   padding: 0 0.15625em;
 }
@@ -4908,7 +4900,6 @@ Blog layouts
   left: 0.9375em;
   right: 0.9375em;
   z-index: 5;
-  display: block;
   color: #fff;
   font-size: 1.125em;
   font-weight: 500;
@@ -5241,7 +5232,6 @@ Blog layouts
   color: #111;
   font-size: 1.375em;
   font-weight: 700;
-  text-decoration: none;
   line-height: 1;
   cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;
@@ -5306,7 +5296,6 @@ Blog layouts
 
 .post .post-standard #post-share {
   position: absolute;
-  top: 0;
   left: -80px;
   top: 5px;
   display: flex;
@@ -5636,7 +5625,6 @@ Blog layouts
 .shop__filter-sibebar__section.-price form .range-input input {
   max-width: 100px;
   background-color: transparent;
-  border: 1px solid #e1e1e1;
   height: auto;
   width: 60px;
   transition: 0.2s ease-in-out;
@@ -6158,7 +6146,7 @@ Blog layouts
   font-size: 1.125em;
   font-weight: 700;
   line-height: 1;
-  padding: 0.83333em 0.83333em;
+  padding: 0.83333em;
 }
 
 .cart__table table thead th:first-child {

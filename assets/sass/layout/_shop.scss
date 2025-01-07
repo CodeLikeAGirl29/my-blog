@@ -358,7 +358,7 @@
         }
         th {
           @include typo($fsz: emCal(16, 18), $fw: 700);
-          padding: emCal(18, 15) emCal(18, 15);
+          padding: emCal(18, 15);
           &:first-child {
             text-align: left;
             padding-left: 0;
