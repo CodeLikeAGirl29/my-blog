@@ -2,10 +2,22 @@
 
 Welcome to the BMW Enthusiast Blog! This blog is dedicated to all things BMW—from the ultimate driving machines of the past to the cutting-edge innovations of the present. Built by Lindsey, a frontend web developer with a passion for BMW’s precision engineering and timeless design, this project is a blend of technology and love for the road.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/caadd0b3-fe63-428e-bc19-c09a834f8b98/deploy-status)](https://app.netlify.com/sites/bmw-blog/deploys)
+
+## Technology Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
 ## Links
 
 - **GitHub Repository**: [CodeLikeAGirl29/my-blog](https://github.com/CodeLikeAGirl29/my-blog)
-- **Live Demo**: [BMW Enthusiast Blog Demo](https://codelikeagirl29.github.io/my-blog/)
+- **Live Demo**: [BMW Enthusiast Blog Demo](https://bmw-blog.netlify.app/)
 
 ## Getting Started
 
@@ -14,6 +26,10 @@ Choose one of the following options to explore or contribute to the blog:
 - [Download the latest release](https://github.com/CodeLikeAGirl29/my-blog/archive/main.zip)
 - Clone the repo: `git clone https://github.com/CodeLikeAGirl29/my-blog.git`
 - Fork the repo
+
+## Screenshot
+
+![Screenshot](https://res.cloudinary.com/dhw9dl4gm/image/upload/v1736256966/Blue_and_Gray_Simple_Desktop_Mockup_Instagram_Post_dyxnky.png)
 
 ## Features
 
